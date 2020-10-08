@@ -1,0 +1,231 @@
+
+@import "all.min.css";
+
+
+
+*{
+
+    margin: 0;
+    padding: 0;
+}
+
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: monospace;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: sans-serif;
+
+}
+
+a,a:hover{
+    text-decoration: none;
+}
+
+
+
+/*global css end*/
+
+
+
+
+.header-section{
+    width: 100%;
+    background: url("../img/HEADER.png") center top no-repeat;
+    background-size: cover;
+}
+
+.menu{
+    width: 100%;
+    padding-top: 30px;
+}
+
+.menu .bg-light{
+    background: transparent !important;
+}
+
+
+
+.header-text{
+    font-size: 30px;
+    text-decoration: none;
+    font-weight: 700;
+    color: #1a1a1a;
+}
+.header-text span{
+    color: #2870db;
+}
+
+
+.menu .navbar-light .navbar-nav .nav-link{
+    color: #ffffff;
+    margin:0px 15px;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.menu .navbar-light .navbar-nav .active .nav-link{
+    color: #ffffff;
+    padding-bottom: 0px;
+}
+
+
+
+
+.menu .navbar-light .navbar-nav .btn-info{
+    padding: 5px 29px;
+    border-radius: 17px;
+    color: white;
+    background-color: dodgerblue;
+    transition: 0.5s ease-in;
+}
+
+
+.menu .navbar-light .navbar-nav .btn-info:hover{
+    padding: 5px 29px;
+    color: #1a1a1a;
+    background-color: #ffffff;
+    border-radius: 20px;
+}
+
+
+.header-section .banner{
+    width: 100%;
+    padding: 100px 0px 380px;
+}
+.header-section .banner .banner-inner{
+    width: 100%;
+    padding: 40px 0px;
+
+}
+
+
+.banner .banner-inner h1{
+    font-size: 42px;
+    font-weight: 400;
+    line-height: 55px;
+    padding-bottom: 20px;
+    color:#1a1a1a ;
+}
+
+.banner .banner-inner p{
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 30px;
+    color:#b8b4c7 ;
+    padding-bottom: 35px;
+}
+
+.banner .banner-inner .btn-info{
+    padding: 10px 35px;
+    border: 0px;
+    color:white ;
+    background: #2870db;
+    border-radius: 30px;
+    font-size: 15px;
+    transition: 0.5s ease-in;
+}
+
+.banner .banner-inner .btn-info:hover{
+    padding: 10px 35px;
+    border: 0px;
+    color:#1a1a1a ;
+    background:white ;
+    border-radius: 30px;
+    font-size: 15px;
+}
+
+
+/*start of explore section*/
+
+.explore{
+    width: 100%;
+    padding: 20px 0px 100px;
+}
+
+
+
+.explore .explore-text{
+    width: 100%;
+    text-align: center;
+}
+
+
+
+.explore .explore-text h1{
+    font-size: 30px;
+    padding-bottom: 30px;
+}
+
+
+.explore .card{
+    width:100%;
+}
+
+
+.explore .card{
+    width: 100%;
+    border-radius: 10px;
+    opacity: .5;
+    box-shadow: 1px 4px 10px #ccc;
+    padding: 20px 30px;
+    margin-bottom: 30px;
+    background-size: cover;
+}
+
+
+
+.card-section{
+    width: 100%;
+
+}
+
+
+
+
+/*strt of trail section*/
+
+
+.improve-trail{
+    width: 100%;
+    padding: 30px 0px 90px;
+
+}
+
+
+.improve-trail .trial-text{
+    width: 100%;
+    padding: 30px 0px;
+    text-align: center;
+}
+
+
+.improve-trail .trial-text h2{
+    font-size: 25px;
+
+
+}
+
+
+
+
+
+
+
+
+
+/*start of protecting trials*/
+
+.protecting-trials .protecting-text{
+    width: 100%;
+    padding: 30px 0px 40px;
+    text-align: center;
+
+}
